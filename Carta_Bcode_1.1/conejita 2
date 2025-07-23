@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorpresa Para ti mi Conejita BCode</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+    <div class="hearts-container" id="hearts-container"></div>
+    <div class="floating-hearts" id="floating-hearts"></div>
+    <div class="notification" id="notification">Haz clic en el sobre para abrir la carta</div>
+    
+    <div class="container" id="main-container">
+        <div class="header">
+            <h1>Para Usted Mi<span class="special-name floating">  Conejita </span></h1>
+            <p style="color: white; text-shadow: 0 0 10px rgba(255,0,119,0.5);">Haz clic en el sobre para recibir tu chopecha :) </p>
+        </div>
+        
+        <div class="envelope-wrapper" id="envelope-wrapper">
+            <div class="envelope" id="envelope">
+                <div class="envelope-front">
+                    <div class="envelope-flap"></div>
+                    <i class="fas fa-heart" style="color: white; font-size: 3rem; animation: pulse 1.5s infinite;"></i>
+                </div>
+                <div class="envelope-back">
+                    <div class="letter">
+                        <div class="paper-texture"></div>
+                        <div class="letter-content">
+                            <h2>MI CONEJITA</h2>
+            <p>Hola mi amor , sabe que hora es? son las 12 de la noche</p>
+            <p>creo que en esta hora es cuando mas le extraño por eso le escribo para</p>
+                            <div class="signature">Te amo</div>
+                        </div>
+                    </div>
+                    <i class="fas fa-heart" style="color: #ff4081; font-size: 2.5rem; animation: pulse 1.5s infinite; position: absolute; bottom: 10px; right: 10px;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="fullscreen-letter" id="fullscreen-letter">
+        <div class="close-btn" id="close-btn">×</div>
+        <div class="paper-texture"></div>
+        <div class="fullscreen-letter-content">
+            <h2>MI CONEJITA</h2>
+            <p>Hola mi amor , sabe que hora es? son las 12 de la noche</p>
+            <p>creo que en esta hora es cuando mas le extraño por eso le escribo para</p>
+            <p>asi poder calmar mi inquieto corazon, </p>
+            <p>Quisiera saber si usted alguna vez se imagino como seria su pareja? Como luciría? Como la trataría y que cosas harían?</p>
+            <p>Pues yo si me lo imaginaba, siempre supe que una mujer me robaría el corazón qué una chica guapa e inteligente aparecería</p>
+            <p>en mi vida una chica a la cual no tenga que rogarle por que me de atención o lo más importante amor, siempre me imagine que nos acostariamos en la cama</p>
+            <p>y yo la vería dormirse le besaría la frente deseando que ese momento sea eterno deseando que no sea un sueño deseando que el tiempo se detenga un momento ,</p>
+            <p>y hoy lo recordé había olvidado que imaginaba esos momentos sabe por que? Por que ya los viví con usted ,</p>
+            <p>y fue la mejor experiencia que he vivido , no la quiero perder la amo demasiado como para hacerle caso a mi orgullo,</p>
+            <p>con usted perdí mi orgullo con usted pierdo mi dignidad no me importa</p>
+            <p>arrastrarme hacia sus pies esos hermosos pies qué tiene usted , y eso lunarsitos que me tienen mal ,</p>
+            <p>sabe algo más? Quería agradecerle por cada día que pasa , agradecerle que me amo aun sabiendo como estaba, me sano y me dio amor sin pedírselo,</p> 
+            <p>por eso la amo y no tiene idea cuanto es cierto que usted me amo primero pero yo la amaré por más tiempo que se extienda al infinito todo lo que nuestras almas puedan soportar,</p>
+            <p>respiro es por y para usted mi conejita hermosa usted será la última no quiero a nadie más a mi lado, ya encontré el final de mi extenso hilo rojo</p>
+            <p>y si no es usted no señora nadie más recuérdelo créame yo no miento mi amor</p>
+            <p>Gracias por amarme sin dudarlo ni una sola vez</p>
+            <div class="signature">Por que usted y yo juntas hasta el final (si es que lo hay)</div>
+        </div>
+    </div>
+
+    
+</body>
+<script src="./js/script.js"></script>
+</html>
